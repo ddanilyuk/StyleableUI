@@ -11,9 +11,9 @@ public protocol StyleableView { }
 
 extension UIView: StyleableView { }
 
-typealias Style<T> = (T) -> Void
+public typealias Style<T> = (T) -> Void
 
-extension StyleableView {
+public extension StyleableView {
     
     // Applying style
     func apply(style: Style<Self>) {
