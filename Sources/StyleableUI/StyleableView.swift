@@ -83,7 +83,7 @@ public extension Array where Element == UIView {
     }
 }
 
-// MARK: - Predifined styles
+// MARK: - Predefined styles
 
 public typealias SView = Styles.UIView
 public typealias SButton = Styles.UIButton
