@@ -85,21 +85,15 @@ public extension Array where Element == UIView {
 
 // MARK: - Predefined styles
 
-public typealias SView = Styles.UIView
-public typealias SButton = Styles.UIButton
-public typealias SLabel = Styles.UILabel
-public typealias STextField = Styles.UITextField
-public typealias STextView = Styles.UITextView
-
-public struct Styles {
+public struct S {
     
-    public struct UIView { }
+    public struct View { }
     
-    public struct UIButton { }
+    public struct Button { }
     
-    public struct UILabel { }
+    public struct Label { }
     
-    public struct UITextField { }
+    public struct TextField { }
     
-    public struct UITextView { }
+    public struct TextView { }
 }
